@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513802830492",
+    "firebase_url": "https://whattoeattoday-8d99f.firebaseio.com",
+    "project_id": "whattoeattoday-8d99f",
+    "storage_bucket": "whattoeattoday-8d99f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513802830492:android:030bc0714feb0297",
+        "android_client_info": {
+          "package_name": "com.ac.jun10.whattoeattoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513802830492-2a0phgnj2sptjmg44m88f9ohpnpm49qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ac.jun10.whattoeattoday",
+            "certificate_hash": "113e1f36705b1eeec4779384f4aaf25d30a813c1"
+          }
+        },
+        {
+          "client_id": "513802830492-8dm7mnp7qefgtst37k9mgh8kucsp5g2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlmDxC-9fxwXRVyxKcetHP_yWLdeEYkgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513802830492-8dm7mnp7qefgtst37k9mgh8kucsp5g2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

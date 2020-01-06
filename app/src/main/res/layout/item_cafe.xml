@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFF"
+    android:padding="5dp"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/cafe_rank_textView"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:id="@+id/cafe_image_imageView"
+        android:layout_width="120dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/cafe_name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="카페 이름"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/cafe_property_textView"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:text="카페 특징 / 카페 특징"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_gravity="bottom"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/red_heart"/>
+    <TextView
+        android:id="@+id/cafe_score_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:text="0.0"
+        android:textSize="20dp"
+        android:textColor="#000"  />
+
+</LinearLayout>

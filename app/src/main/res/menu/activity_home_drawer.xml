@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="메뉴">
+        <menu>
+            <item
+                android:id="@+id/nav_reselect"
+                android:icon="@drawable/ic_menu_select"
+                android:title="취향선택 다시하기" />
+            <item
+                android:id="@+id/nav_store_rank"
+                android:icon="@drawable/ic_menu_restaurant"
+                android:title="전체식당 랭킹" />
+        </menu>
+    </item>
+
+    <item android:title="로그인 관리">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="로그아웃" />
+        </menu>
+    </item>
+
+</menu>

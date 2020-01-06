@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateUserActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+        <EditText
+            android:id="@+id/createEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이메일을 입력하세요.(이메일 형식만 가능)"
+            android:ems="10"
+            android:inputType="textEmailAddress"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"/>
+        <EditText
+            android:id="@+id/createPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호를 입력하세요.(6글자 이상)"
+            android:ems="10"
+            android:inputType="textPassword"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"/>
+        <EditText
+            android:id="@+id/createRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호를 한번 더 입력하세요."
+            android:ems="10"
+            android:inputType="textPassword"/>
+        <Button
+            android:id="@+id/cuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:text="회  원  가  입"
+            android:textSize="18dp"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
