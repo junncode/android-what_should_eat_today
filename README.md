@@ -13,7 +13,7 @@
  - Login information records on Firebase Authorization.
 
 ### 2) Home Screen 
- ![home](./settings.gradle/home)
+ ![home](./settings.gradle/home.png)
  - This is a home screen of 'What Should Eat Today?'.
  - "밥팅(Bobting)": You can get recommended restaurant with 'Recommendation Algorithm'.
  - "이 주의 학식(This week's school food)": You can see this week's school food menu.
